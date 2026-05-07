@@ -1,0 +1,28 @@
+### Caderno de receitas — testes locais (Flask :5000)
+
+POST http://127.0.0.1:5000/receitas
+Content-Type: application/json
+
+{
+  "titulo": "Limonada",
+  "modo_preparo": "Espremer limões, misturar com água e açúcar.",
+  "categoria": "bebida",
+  "ingredientes": ["limao", "acucar", "agua"]
+}
+
+###
+
+POST http://127.0.0.1:5000/receitas
+Content-Type: application/json
+
+{
+  "titulo": "Sem ingredientes"
+}
+
+###
+
+GET http://127.0.0.1:5000/receitas
+
+###
+
+GET http://127.0.0.1:5000/receitas/507f1f77bcf86cd799439011

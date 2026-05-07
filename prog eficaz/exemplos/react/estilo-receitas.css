@@ -1,0 +1,58 @@
+.pagina-receitas {
+  padding: 20px;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.sub {
+  margin-top: 28px;
+}
+
+.form-receita {
+  border: 1px solid #ccc;
+  padding: 16px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.form-receita h2 {
+  margin-top: 0;
+}
+
+.campo {
+  margin-bottom: 12px;
+}
+
+.campo label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.campo input,
+.campo textarea,
+.campo select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 6px;
+}
+
+.form-receita button {
+  margin-top: 8px;
+  padding: 8px 14px;
+}
+
+.card-receita {
+  border: 1px solid #ddd;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+}
+
+.card-receita ul {
+  padding-left: 20px;
+}
+
+.grade {
+  text-align: left;
+}
