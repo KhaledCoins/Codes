@@ -1,0 +1,73 @@
+/* ── Layout principal ──────────────────────────────────────────────────────── */
+.pagina {
+  padding: 20px;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.subtitulo {
+  margin-top: 32px;
+}
+
+/* ── Formulário ────────────────────────────────────────────────────────────── */
+.formulario {
+  border: 1px solid var(--border, #ccc);
+  padding: 16px;
+  text-align: left;
+  margin-top: 16px;
+  border-radius: 6px;
+}
+
+.formulario h2 {
+  margin-top: 0;
+}
+
+.campo {
+  margin-bottom: 12px;
+}
+
+.campo label {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+.campo input,
+.campo textarea,
+.campo select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 6px;
+}
+
+.formulario button {
+  margin-top: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+/* ── Lista de itens ────────────────────────────────────────────────────────── */
+.lista-itens {
+  text-align: left;
+}
+
+/* ── Card de item individual ───────────────────────────────────────────────── */
+.item-card {
+  border: 1px solid var(--border, #ccc);
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+}
+
+.item-card p {
+  margin: 6px 0;
+}
+
+/*
+  Lista de tags/tecnologias:
+  Renderizada com <ul> e <li> dentro do card.
+*/
+.item-card ul {
+  margin: 4px 0 6px;
+  padding-left: 22px;
+}
